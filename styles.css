@@ -364,20 +364,9 @@ button {
   color: var(--muted);
   font-size: 14px;
   font-weight: 800;
-  padding: 15px 10px 8px;
+  padding: 10px;
   border-radius: 14px;
   overflow: hidden;
-}
-
-.nav-links a::before {
-  content: attr(data-step);
-  position: absolute;
-  top: 5px;
-  left: 9px;
-  color: var(--accent-strong);
-  font-size: 10px;
-  font-weight: 800;
-  opacity: 0.78;
 }
 
 .nav-links a::after {
@@ -1673,13 +1662,8 @@ footer {
   .nav-links a {
     justify-items: start;
     min-height: 52px;
-    padding: 18px 14px 10px 42px;
+    padding: 14px;
     text-align: left;
-  }
-
-  .nav-links a::before {
-    top: 17px;
-    left: 14px;
   }
 
   .nav-actions {
